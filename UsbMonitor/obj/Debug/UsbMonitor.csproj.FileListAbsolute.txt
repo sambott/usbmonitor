@@ -1,0 +1,9 @@
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\bin\Debug\ICUsbMonitor.exe.config
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\bin\Debug\ICUsbMonitor.exe
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\bin\Debug\ICUsbMonitor.pdb
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\UsbMonitor.csproj.GenerateResource.Cache
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\ICUsbMonitor.exe
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\ICUsbMonitor.pdb
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\UsbMonitor.ListeningForm.resources
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\UsbMonitor.Properties.Resources.resources
+\\icnas1.cc.ic.ac.uk\shb104\Visual Studio 2012\Projects\UsbMonitor\UsbMonitor\obj\Debug\UsbMonitor.ShutterDowner.resources

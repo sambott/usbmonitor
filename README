@@ -1,0 +1,11 @@
+Background process loaded during logon on cluster PCs.
+
+"IC USB Monitor" is an executable to listen for a logoff event and display a message to prompt the user if they have not removed their USB disk. 
+
+The executable resides on the logon server at "\\ic.ac.uk\NETLOGON\bin.NET", the source - if needed - is at "\\ictools1.cc.ic.ac.uk\source\". 
+
+To use, set the executable to run as a logon script in group policy (or similar). It can be run by any user (priviledges are not needed), but to work as intended it must be run in an interactive session. 
+
+The executable will load, hidden, into the background of the session. When the WM_QUERYENDSESSION WinProc message is received the logoff is cancelled when a removable drive not at "A:\" or "B:\" is detected. Once the logoff is cancelled a message alerting the user is displayed to the screen and an "exclamation" sound is played. The message states "USB Device Detected. Please Disconnect Your Device." and then "Logging off in 20 Seconds" which counts down to 0. When either 0 is reached, the USB device is removed, or the user manually issues another logoff request, a logoff request is made through the Win32 APIs. 
+
+The Assembly is strong-name signed and the binary is code-signed.
